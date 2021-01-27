@@ -1,0 +1,192 @@
+\documentclass[9pt, a4paper]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{lmodern}
+% \usepackage{helvet}
+% \usepackage{sans}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{marvosym}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage{fontawesome}
+\pagestyle{empty}
+\setlist{nosep}
+% \usepackage[default]{sourcesanspro}
+% \usepackage[default,regular,bold]{sourceserifpro}
+% \renewcommand{\familydefault}{\sfdefault}
+\setlength{\parskip}{0.2em}
+\renewcommand{\baselinestretch}{1}
+\setlength{\parindent}{0em}
+
+\titleformat*{\section}{\centering\bfseries\sffamily\large\color{black}}
+
+% \titleformat{name=\section}
+%   {\centering\sffamily\bfseries\Large}
+%   {}
+%   {0pt}
+%   {\colorsection}
+\titlespacing*{\section}{0pt}{0.5\baselineskip}{0.25\baselineskip}
+
+\newcommand{\colorsection}[1]{%
+  \colorbox{gray!10}{\parbox{\dimexpr\textwidth-2\fboxsep}{#1}}}
+
+\geometry{left=1.5cm, right=1.5cm, top=1cm, bottom=1cm}
+% \geometry{top=1cm, bott}
+
+\title{Resume}
+\author{Matthew Low}
+\date{November 2019}
+
+\begin{document}
+
+% Heading stuff
+
+\begin{center}
+\Huge{\sffamily\textbf{\color{black} Matthew Low}}\normalsize
+
+\Letter \ \href{mailto:m.low@uq.net.au}{\nolinkurl{m.low@uq.net.au}} \quad \ComputerMouse \ \href{https://mlow.dev}{\nolinkurl{mlow.dev}} \quad \faGithub \ \href{https://github.com/mattchrlw}{\nolinkurl{github.com/mattchrlw}} \quad \Telefon \ (+61) xxx xxx xxx
+\end{center}
+
+
+% \textit{Hi! I'm a 3rd year mathematics and computer science student at the University of Queensland with experience in a variety of languages and environments as well as strong mathematical and statistical skills. My interests lie in algorithms, machine learning, front-end web development, and design.}
+
+% \rule{\textwidth\color{gray!80}}{0.5pt}
+\section*{Education}
+% \textbf{The University of Queensland} Bachelors of Mathematics and Computer Science
+% \hfill \textit{Feb 2018--Present}\\
+% Specialisations in Machine Learning, Data Analytics \& Operations Research, GPA 6.00/7.00
+
+% \textbf{The University of Queensland (UQ)} Bachelors of Mathematics/Science, GPA 6.06/7.00
+
+% \textbf{The University of Queensland (UQ)}, Honours\hfill \textit{Feb 2022--Dec 2022}\\
+% Bachelors of Science (Honours) in Computer Science. 
+
+\textbf{The University of Queensland (UQ)}, Undergraduate, GPA 6.25/7.00
+\hfill \textit{Feb 2018--Nov 2021}
+\begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+\item Bachelors of Mathematics and Science majoring in \textbf{Statistics \& Computer Science}.
+% \hfill \textit{Feb 2019--Nov 2021}
+% \item Bachelors of Mathematics/Computer Science (incomplete) \hfill \textit{Jul 2018--Nov 2019}
+% \item Bachelors of Engineering (Hons)/Computer Science (incomplete) \hfill \textit{Feb 2018--Jul 2018}
+\end{itemize}
+% (equivalent to US GPA 3.83/4)
+
+% \textbf{St Peters Lutheran College}, High School (Queensland Certificate of Education), OP 3 \hfill \textit{Jan 2013--Nov 2017}
+
+\section*{Experience}
+
+\textbf{Software Developer Intern}, Atlassian \hfill \textit{Nov 2020--Feb 2021}
+\begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+    \item Worked as a full-stack developer on the \textit{Your Work} team, developing cross-platform notifications \& activity experiences.
+    \item Worked with Java/Spring Boot-based backend and React \& TypeScript on the frontend, with Mockito/WireMock
+\end{itemize}
+% \begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+%     \item ...
+% \end{itemize}
+
+\textbf{Casual Research Assistant}, School of Information Technology and Electrical Engineering, UQ \hfill \textit{Jul 2020--Present}
+\begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+    \item Worked on the \textit{Elpis} project, a tool allowing linguists with minimal computational experience to build their own speech recognition models to automatically transcribe audio.
+\end{itemize}
+
+\textbf{Software Developer}, Department of Environment and Science, Queensland Government \hfill \textit{Nov 2019--Present}
+\begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+    \item Worked as a contractor for a number of projects to clients around the department.
+    \item Successfully delivered the \textit{Queensland Herbarium 2019 Census} using a MySQL/MS SQL Server backend, automating the census process for the first time.
+    \item Developed full-stack web applications for the visualisation and processing of water quality data.
+\end{itemize}
+
+\textbf{Tutor (Teaching Assistant)}, The University of Queensland \hfill \textit{Feb 2020--Present}
+\begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+    \item Delivered solo tutorial-style classes and collaborative workshops to students undertaking coursework in mathematics, statistics and computer science.
+    \item \textit{Semester 2, 2020}: COMP3506 \textit{Algorithms and Data Structures}, STAT1301 \textit{Advanced Analysis of Scientific Data}.
+    \item \textit{Semester 1, 2020}: MATH1050 \textit{Mathematical Foundations}.
+\end{itemize}
+
+\textbf{Summer Research Scholar}, School of Mathematics and Physics, UQ \hfill \textit{Nov 2019--Feb 2020}
+\begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+    \item Investigated a variety of numerical optimisation algorithms used in machine learning.
+    \item Performed experiments on the runtime of such algorithms on various datasets in MATLAB.
+    \item Experimented with various novel modifications on traditional algorithms.
+\end{itemize}
+
+\textbf{Robotics Mentor}, St Peters Lutheran College \hfill \textit{May 2019--Nov 2019}
+\begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+    \item Assisted students from Years 5--12 with programming \& building LEGO Mindstorms EV3 robots.
+    \item Performed general duties during robotics sessions.
+\end{itemize}
+
+% \textbf{Leadership and Mentoring in Science Program}, Faculty of Science, UQ \hfill \textit{Jun 2019--Nov 2019}
+% \begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+%     \item Participated in a number of events and completed workshops centered on leadership in science.
+% \end{itemize}
+
+% \textbf{Start-Up China Program}, Dalian Neusoft University of Information \hfill \textit{Jun 2019--Jul 2019}
+% \begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+%     \item Prepared a business plan and implemented a mock-up product in 4 weeks for the nutrition industry.
+% \end{itemize}
+
+\section*{Skills}
+\textbf{Languages}: Python, Java, C++, MATLAB, C, SQL, HTML5, CSS, JavaScript, R, TypeScript, Shell, Julia, \LaTeX
+
+\textbf{Technologies}: Git, React, AWS, Docker, Spring Boot, MySQL, SQL Server, PostgreSQL, Node.js, Jenkins, Vagrant, Gurobi
+
+% \textbf{Applications}: Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Jira, Confluence, Trello
+
+\section*{Projects}
+
+\href{https://github.com/summerprogram2019/orange}{\faGithub} \textbf{Orange (group project, Start-Up China Program)}: A nutrition application for managing daily intakes and scanning \& recognising foods using machine learning, developed with Django and Bootstrap. My focus was on the Bootstrap-based front end of the application.
+
+\href{https://github.com/mattchrlw/yeetbeat}{\faGithub} \textbf{YeetBeat (group project, UQCS Hackathon 2019)}: A music guessing game, delivering snippets of audio to multiple users. Developed with Heroku, Bootstrap and NodeJS. My focus was on the Bootstrap-based front end of the application.
+
+\href{https://github.com/mattchrlw/mimicraft}{\faGithub} \textbf{Mimicraft}: A 3D Minecraft clone built with JavaFX 3D Graphics libraries.
+
+\href{https://github.com/mattchrlw/pyfoil}{\faGithub} \textbf{PyFoil}: A Python script that parses and processes airfoil data for use in aerodynamic analysis, using \texttt{subprocess} to interface with an existing command-line application \texttt{XFOIL}.
+
+\textbf{Eurovision Online}: Developed within the space of a few weeks a serverless Firebase-based web application with a React frontend, processing hundreds of votes for a fan-based \textit{Eurovision Song Contest}.
+
+\section*{Volunteering}
+\textbf{Committee Member}, University of Queensland Computing Society \hfill \textit{Sep 2020--Present}
+
+\textbf{Secretary}, University of Queensland Computing Society \hfill \textit{Oct 2019--Sep 2020}
+\begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+    \item Organised meetings with fellow members of the committee and took minutes.
+    \item Handled communication over email and social media channels.
+    \item Communicated with companies and secured sponsorships.
+\end{itemize}
+
+\textbf{President}, Mathematics Students Society UQ \hfill \textit{Oct 2020--Present}
+
+\textbf{Industry Liaison Officer}, Mathematics Students Society UQ \hfill \textit{Sep 2019--Oct 2020}
+\begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+    \item Helped organise and run a number of society events including \textit{Wine and Cheese} and \textit{Lawn Bowls}.
+    \item Communicated with potential sponsors for the society and secured a record number of sponsorships.
+    \item Designed the majority of the society's materials, including a redesign of our logo and branding.
+\end{itemize}
+
+% \textbf{Information Technology Prefect}, St Peters Lutheran College \hfill \textit{Sep 2016--Sep 2017}
+% \begin{itemize}[label=\textcolor{gray!80}{\textbullet}]
+%     \item Assisted with AV in various events, especially during technical difficulties.
+%     \item Set up a student IT helpdesk for common issues such as software installation and email setup.
+% \end{itemize}
+
+
+\section*{Awards}
+
+2020: \textbf{Dean's Commendation for Academic Excellence} (Semester 1 and 2), \textit{The University of Queensland}
+
+2019--2020: \textbf{Summer Research Scholarship}, \textit{The University of Queensland}
+
+2019: \textbf{New Colombo Plan Grant} for the Start-Up China Program, \textit{The University of Queensland}
+
+2019: \textbf{1st Place Newcomers}, UQCS Hackathon 2019, \textit{UQ Computing Society}
+
+2019: \textbf{1st Place}, Industry vs Student Showdown 2019 (HackerRank competition), \textit{QUT Code Network}
+
+% \color{gray}\raggedleft\textit{References available upon request.}
+
+\end{document}
